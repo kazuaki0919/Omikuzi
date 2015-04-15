@@ -14,6 +14,13 @@
 		725E6A901AA715DF003383E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725E6A8F1AA715DF003383E7 /* Images.xcassets */; };
 		725E6A931AA715DF003383E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 725E6A911AA715DF003383E7 /* LaunchScreen.xib */; };
 		725E6A9F1AA715DF003383E7 /* OmikuziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725E6A9E1AA715DF003383E7 /* OmikuziTests.m */; };
+		725E6AA91AA717A0003383E7 /* omikujibutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 725E6AA81AA717A0003383E7 /* omikujibutton.png */; };
+		725E6AAC1AA719AF003383E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725E6AAB1AA719AF003383E7 /* SecondViewController.m */; };
+		728E34EA1AB00B7800CBF6C3 /* zinzya2.png in Resources */ = {isa = PBXBuildFile; fileRef = 728E34E91AB00B7800CBF6C3 /* zinzya2.png */; };
+		728E34F01AB00F3B00CBF6C3 /* Mushimegane2.png in Resources */ = {isa = PBXBuildFile; fileRef = 728E34EF1AB00F3B00CBF6C3 /* Mushimegane2.png */; };
+		728E34F21AB0135200CBF6C3 /* mituzitutu.png in Resources */ = {isa = PBXBuildFile; fileRef = 728E34F11AB0135200CBF6C3 /* mituzitutu.png */; };
+		728E34F41AB0146A00CBF6C3 /* mikuzi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728E34F31AB0146A00CBF6C3 /* mikuzi.jpg */; };
+		728E34F61AB0167B00CBF6C3 /* yajirusi.png in Resources */ = {isa = PBXBuildFile; fileRef = 728E34F51AB0167B00CBF6C3 /* yajirusi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		725E6A981AA715DF003383E7 /* OmikuziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikuziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		725E6A9D1AA715DF003383E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		725E6A9E1AA715DF003383E7 /* OmikuziTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmikuziTests.m; sourceTree = "<group>"; };
+		725E6AA81AA717A0003383E7 /* omikujibutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikujibutton.png; sourceTree = "<group>"; };
+		725E6AAA1AA719AF003383E7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		725E6AAB1AA719AF003383E7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		728E34E91AB00B7800CBF6C3 /* zinzya2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zinzya2.png; sourceTree = "<group>"; };
+		728E34EF1AB00F3B00CBF6C3 /* Mushimegane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mushimegane2.png; sourceTree = "<group>"; };
+		728E34F11AB0135200CBF6C3 /* mituzitutu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mituzitutu.png; sourceTree = "<group>"; };
+		728E34F31AB0146A00CBF6C3 /* mikuzi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mikuzi.jpg; sourceTree = "<group>"; };
+		728E34F51AB0167B00CBF6C3 /* yajirusi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yajirusi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +100,15 @@
 				725E6A871AA715DF003383E7 /* AppDelegate.m */,
 				725E6A891AA715DF003383E7 /* ViewController.h */,
 				725E6A8A1AA715DF003383E7 /* ViewController.m */,
+				725E6AAA1AA719AF003383E7 /* SecondViewController.h */,
+				725E6AAB1AA719AF003383E7 /* SecondViewController.m */,
 				725E6A8C1AA715DF003383E7 /* Main.storyboard */,
+				728E34F51AB0167B00CBF6C3 /* yajirusi.png */,
+				728E34F31AB0146A00CBF6C3 /* mikuzi.jpg */,
+				728E34F11AB0135200CBF6C3 /* mituzitutu.png */,
+				728E34E91AB00B7800CBF6C3 /* zinzya2.png */,
+				728E34EF1AB00F3B00CBF6C3 /* Mushimegane2.png */,
+				725E6AA81AA717A0003383E7 /* omikujibutton.png */,
 				725E6A8F1AA715DF003383E7 /* Images.xcassets */,
 				725E6A911AA715DF003383E7 /* LaunchScreen.xib */,
 				725E6A821AA715DF003383E7 /* Supporting Files */,
@@ -199,9 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728E34F01AB00F3B00CBF6C3 /* Mushimegane2.png in Resources */,
+				728E34EA1AB00B7800CBF6C3 /* zinzya2.png in Resources */,
+				725E6AA91AA717A0003383E7 /* omikujibutton.png in Resources */,
 				725E6A8E1AA715DF003383E7 /* Main.storyboard in Resources */,
 				725E6A931AA715DF003383E7 /* LaunchScreen.xib in Resources */,
+				728E34F21AB0135200CBF6C3 /* mituzitutu.png in Resources */,
 				725E6A901AA715DF003383E7 /* Images.xcassets in Resources */,
+				728E34F61AB0167B00CBF6C3 /* yajirusi.png in Resources */,
+				728E34F41AB0146A00CBF6C3 /* mikuzi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725E6AAC1AA719AF003383E7 /* SecondViewController.m in Sources */,
 				725E6A8B1AA715DF003383E7 /* ViewController.m in Sources */,
 				725E6A881AA715DF003383E7 /* AppDelegate.m in Sources */,
 				725E6A851AA715DF003383E7 /* main.m in Sources */,
@@ -412,6 +442,7 @@
 				725E6AA41AA715DF003383E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		725E6AA51AA715DF003383E7 /* Build configuration list for PBXNativeTarget "OmikuziTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +451,7 @@
 				725E6AA71AA715DF003383E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
